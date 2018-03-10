@@ -23,13 +23,16 @@
     </h2>
     <form action="">
       <label for="play"> <img src="img\piedra ani.jpg" > </label>
-      <input  id="play"type="radio"  src="img\piedra.jpg"name="juego"  class="piedra" onclick="game1(this.form)" value="piedra">
+      <input  id="play"type="radio"  src="img\piedra.jpg"name="p1"  class="piedra" onclick="p1vscpu(this.form)" value="piedra">
 
       <label for="play_1"> <img src="img\papel.jpg" alt="papel">  </label>
-      <input id="play_1" type="radio" src="img\papel.jpg" name="juego" class="papel" onclick="game1(this.form)" value="papel">
+      <input id="play_1" type="radio" src="img\papel.jpg" name="p1" class="papel" onclick="p1vscpu(this.form)" value="papel">
 
       <label for="play_2"> <img src="img\tijeras.jpg"> </label>
-      <input id="play_2"type="radio" src="img\tijeras.jpg" name="juego" class="tijeras" onclick="game1(this.form)" value="tijeras">
+      <input id="play_2"type="radio" src="img\tijeras.jpg" name="p1" class="tijera" onclick="p1vscpu(this.form)" value="tijeras">
+      <h2 class="p1vscpu">¿Quien ganó?</h2>
+      <h2 class="result">resultado</h2>
+
     </form>
     <!-- <form  action="">
       <label for="play_3"> <img src="img\piedra ani.jpg" > </label>
@@ -42,9 +45,13 @@
       <input id="play_5"type="radio" src="img\tijeras.jpg" name="juego" class="tijeras" onclick="game1(this.form)" value="tijeras">
 
     </form> -->
+    <p></p>
     <footer>
-      <h1>hola</h1>
+      <img src="img\redes.png" alt="">
     </footer>
+    <audio src="audio\Los Simpson - Intro.mp3" autoplay loop>
+
+    </audio>
     <script src="juego.js"></script>
   </body>
 </html>

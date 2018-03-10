@@ -23,7 +23,16 @@ nav a{
   color: gold;
   text-decoration: none;
 }
+.p1vscpu{
+  text-align: right;
+  display: none;
+}
+.result{
+  text-align: right;
+  display: none;
+}
 footer{
   background-color: yellow;
   color: blue;
+  padding: 20px;
 }
