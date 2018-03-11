@@ -13,29 +13,28 @@ form.solo{
   float: right;
 }
 img{
-  width: 150px;
+  width: 200px;
 }
 nav{
+
   background-color: transparent;
-  padding : 10px
-}
-form label:hover{
-  background-color: red;
-}
-img.familia{
- text-align: center;
+  border-radius : 10px;
+  border-style: none;
+  display: run-in;
+  overflow: hidden;
+  width: 15%;
+  padding : 5px
 }
 nav a{
+  float: right;
   color: gold;
   text-decoration: none;
 }
-.p1vscpu{
-  text-align: right;
-  display: none;
+nav a:hover{
+  color: white;
 }
-.result{
-  text-align: right;
-  display: none;
+section{
+  text-align: center;
 }
 footer{
   background-color: yellow;

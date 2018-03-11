@@ -21,25 +21,29 @@ function p1vscpu(form){
   var p1vscpu = [p1, cpu]
 
     if (p1vscpu[0] == 'piedra' && p1vscpu[1] == 'cpu papel') {
-      console.log('tu ganas');
-
-      document.querySelector('.result'). innerHTML = 'ganas';
+      console.log('tu pierdes');
+      document.querySelector('.result'). innerHTML = 'pierdes';
 
     } else if (p1vscpu[0] == 'piedra' && p1vscpu[1] =='cpu tijera') {
-      console.log('tu pierdes');
-      document.querySelector('.result'). innerHTML = 'pierdes';
+      console.log('tu ganas');
+      document.querySelector('.result'). innerHTML = 'ganas';
+
     } else if (p1vscpu[0]== 'papel' && p1vscpu[1] == 'cpu piedra') {
-      console.log('tu pierdes');
-      document.querySelector('.result'). innerHTML = 'pierdes';
+      console.log('tu ganas');
+      document.querySelector('.result'). innerHTML = 'ganas';
+
     } else if (p1vscpu[0] == 'papel' && p1vscpu[1] == 'cpu tijera') {
-      console.log('tu ganas');
-      document.querySelector('.result'). innerHTML = 'ganas';
-    } else if (p1vscpu[0] == 'tijera' && p1vscpu[1] == 'cpu piedra') {
-      console.log('tu ganas');
-      document.querySelector('.result'). innerHTML = 'ganas';
-    } else if (p1vscpu[0] == 'tijera' && p1vscpu[1] == 'cpu papel') {
       console.log('tu pierdes');
       document.querySelector('.result'). innerHTML = 'pierdes';
+
+    } else if (p1vscpu[0] == 'tijeras' && p1vscpu[1] == 'cpu piedra') {
+      console.log('tu pierdes');
+      document.querySelector('.result'). innerHTML = 'pierdes';
+
+    } else if (p1vscpu[0] == 'tijeras' && p1vscpu[1] == 'cpu papel') {
+      console.log('tu ganas');
+      document.querySelector('.result'). innerHTML = 'ganas';
+
     } else {
       console.log('empate');
       document.querySelector('.result'). innerHTML = 'empate';
