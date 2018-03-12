@@ -21,33 +21,33 @@ function p1vscpu(form){
 
     if (p1vscpu[0] == 'piedra' && p1vscpu[1] == 'cpu papel') {
       console.log('tu pierdes');
-      document.querySelector('.result'). innerHTML = 'eres tan malo que hasta con homero pierdes';
-      document.querySelector('.audio').src='../audio/homer victory.mp3'
+      document.querySelector('.result'). innerHTML = 'no puede ser que pierdas con un niñito';
+      document.querySelector('.audio').src='../audio/bart gano2.mp3'
 
     } else if (p1vscpu[0] == 'piedra' && p1vscpu[1] =='cpu tijera') {
       console.log('tu ganas');
       document.querySelector('.result'). innerHTML = 'jajaja quien no le podria ganar a homero';
-      document.querySelector('.audio').src='../audio/homero pierde.mp3'
+      document.querySelector('.audio').src='../audio/bart gano.mp3'
 
     } else if (p1vscpu[0]== 'papel' && p1vscpu[1] == 'cpu piedra') {
       console.log('tu ganas');
       document.querySelector('.result'). innerHTML = 'jajaja quien no le podria ganar a homero';
-      document.querySelector('.audio').src='../audio/homero pierde.mp3'
+      document.querySelector('.audio').src='../audio/bart gano.mp3'
 
     } else if (p1vscpu[0] == 'papel' && p1vscpu[1] == 'cpu tijera') {
       console.log('tu pierdes');
-      document.querySelector('.result'). innerHTML = 'eres tan malo que hasta con homero pierdes';
-      document.querySelector('.audio').src='../audio/homer victory.mp3'
+      document.querySelector('.result'). innerHTML = 'no puede ser que pierdas con un niñito';
+      document.querySelector('.audio').src=''
 
     } else if (p1vscpu[0] == 'tijeras' && p1vscpu[1] == 'cpu piedra') {
       console.log('tu pierdes');
-      document.querySelector('.result'). innerHTML = 'eres tan malo que hasta con homero pierdes';
-      document.querySelector('.audio').src='../audio/homer victory.mp3'
+      document.querySelector('.result'). innerHTML = 'no puede ser que pierdas con un niñito';
+      document.querySelector('.audio').src=''
 
     } else if (p1vscpu[0] == 'tijeras' && p1vscpu[1] == 'cpu papel') {
       console.log('tu ganas');
       document.querySelector('.result'). innerHTML = 'jajaja quien no le podria ganar a homero';
-      document.querySelector('.audio').src='../audio/homer victory.mp3'
+      document.querySelector('.audio').src='../audio/bart gano.mp3'
 
     } else {
       console.log('empate');
