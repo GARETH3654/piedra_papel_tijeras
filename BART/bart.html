@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>piedra, papel, tijera</title>
+    <link rel="icon" href="../img/gameplay.png">
+    <link rel="stylesheet" href="bart.css">
+  </head>
+  <body>
+    <nav>
+      <button type="button" class="vuelta" name="button">
+        <p>pagina anterior</p>
+      </button>
+      <button type="button" name="button">
+        <a href="../INDICE.HTML"> <img src="../img\pagina principal.png" alt=""> </a>
+      </button>
+     <h2>
+     </h2>
+    </nav>
+    <p> en esta seccion te enfretaras contra Bart</p>
+    <p>MUCHA SUERTE</p>
+    <img class="familia"src="../img\bart.png" alt="homero">
+    <h1>vs</h1>
+    <form action="">
+      <label for="play"> <img src="../img\piedra ani.jpg" > </label>
+      <input  id="play"type="radio"  src="../img\piedra.jpg"name="p1"  class="piedra" onclick="p1vscpu(this.form)" value="piedra">
+
+      <label for="play_1"> <img src="../img\papel.jpg" alt="papel">  </label>
+      <input id="play_1" type="radio" src="../img\papel.jpg" name="p1" class="papel" onclick="p1vscpu(this.form)" value="papel">
+
+      <label for="play_2"> <img src="../img\tijeras.jpg"> </label>
+      <input id="play_2"type="radio" src="../img\tijeras.jpg" name="p1" class="tijera" onclick="p1vscpu(this.form)" value="tijeras">
+      <h2 class="p1vscpu">¿Quien ganó?</h2>
+      <h2  class="result">resultado</h2>
+      <audio class="audio" src="..\audio\Los Simpson - Intro.mp3" autoplay >
+
+      </audio>
+    <script src="bart.js" >  </script>
+  </body>
+</html>

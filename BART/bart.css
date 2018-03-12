@@ -9,44 +9,49 @@ body{
 body img.ppt{
   width: none;
 }
+.vuelta{
+  float: right;
+}
+section{
+  text-align: inherit;
+}
 form.solo{
   float: right;
 }
 img{
-  width: 200px;
+  width: 150px;
 }
 nav{
-
   background-color: transparent;
-  border-radius : 10px;
-  border-style: none;
-  display: run-in;
-  overflow: hidden;
-  width: 95%;
-  padding : 5px
+  padding : 10px
 }
-.vuelta{
-  float: right;
-  padding: 0px 10px;
-  margin: 0px 30px;
-}
-button{
-  background-color: LightBlue;
+nav button{
+  background-color:LightBlue;
+  float: none;
   display: grid;
   border-style: hidden;
-  border-radius:10px;
-
+  border-radius: 10px
+}
+button.vuelta{
+  float:right;
+}
+form label:hover{
+  background-color: red;
+}
+img.familia{
+ text-align: center;
 }
 nav a{
-  float: right;
   color: gold;
   text-decoration: none;
 }
-nav a:hover{
-  color: white;
+.p1vscpu{
+  text-align: right;
+  display: none;
 }
-section{
-  text-align: center;
+.result{
+  text-align: right;
+  display: none;
 }
 footer{
   background-color: yellow;

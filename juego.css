@@ -19,6 +19,13 @@ nav{
   background-color: transparent;
   padding : 10px
 }
+.vuelta{
+  float: right;
+  border-radius: 10px;
+  background-color: LightBlue;
+  
+
+}
 form label:hover{
   background-color: red;
 }
