@@ -37,12 +37,12 @@ function p1vscpu(form){
     } else if (p1vscpu[0] == 'papel' && p1vscpu[1] == 'cpu tijera') {
       console.log('tu pierdes');
       document.querySelector('.result'). innerHTML = 'no puede ser que pierdas con un niñito';
-      document.querySelector('.audio').src=''
+      document.querySelector('.audio').src='../audio/bart gano2.mp3'
 
     } else if (p1vscpu[0] == 'tijeras' && p1vscpu[1] == 'cpu piedra') {
       console.log('tu pierdes');
       document.querySelector('.result'). innerHTML = 'no puede ser que pierdas con un niñito';
-      document.querySelector('.audio').src=''
+      document.querySelector('.audio').src='../audio/bart gano2.mp3'
 
     } else if (p1vscpu[0] == 'tijeras' && p1vscpu[1] == 'cpu papel') {
       console.log('tu ganas');
